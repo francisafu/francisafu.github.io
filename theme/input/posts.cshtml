@@ -1,6 +1,8 @@
 ArchiveSources: => GetString("PostSources")
+ArchiveFilter: => GetBool("IsPost")
 ArchiveOrderKey: Published
 ArchiveOrderDescending: true
+Title: 文章
 ---
 @foreach(IGrouping<int, IDocument> group in Document
     .GetChildren()

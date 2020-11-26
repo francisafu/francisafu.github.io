@@ -1,4 +1,5 @@
 ArchiveSources: => GetString("PostSources")
+ArchiveFilter: => GetBool("IsPost")
 ArchiveKey: Tags
 ArchiveKeyComparer: => StringComparer.OrdinalIgnoreCase.ToConvertingEqualityComparer()
 ArchiveDestination: >
@@ -6,7 +7,7 @@ ArchiveDestination: >
 ArchivePageSize: 10
 ArchiveOrderKey: Published
 ArchiveOrderDescending: true
-Title: Tags
+Title: 标签
 ArchiveTitle: => GetString("GroupKey")
 ---
 @if (Document.ContainsKey(Keys.GroupKey))
