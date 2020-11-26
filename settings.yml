@@ -1,3 +1,3 @@
 GitHubOwner: francisafu
-GitHubName: francisafu.github,io
+GitHubName: francisafu.github.io
 GitHubToken: => Config.FromSetting<string>("GITHUB_TOKEN")
