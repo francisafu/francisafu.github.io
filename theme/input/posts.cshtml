@@ -18,7 +18,7 @@ Title: 文章
             {
                 <div class="post-subtitle">@post.GetString("Lead")</div>
             }
-            <p class="post-meta">发布于 @post.GetDateTime(WebKeys.Published).ToLongDateString()</p>
+            <p class="post-meta">发布于 @post.GetDateTime(WebKeys.Published).ToShortDateString()</p>
         </div>
     }
 }
