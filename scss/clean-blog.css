@@ -203,3 +203,49 @@ p { margin: 0 0 1rem 0; }
 @media (min-width: 1200px) { .container-lg-height { display: table; padding-left: 0px; padding-right: 0px; }
   .row-lg-height { display: table-row; }
   .col-lg-height { display: table-cell; float: none; } }
+
+div .post { font: 400 16px/1.5 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #111; background-color: #fdfdfd; -webkit-text-size-adjust: 100%; -webkit-font-feature-settings: 'kern' 1; -moz-font-feature-settings: 'kern' 1; -o-font-feature-settings: 'kern' 1; font-feature-settings: 'kern' 1; font-kerning: normal; padding: 30px; /* Links */ /* Code blocks */ /* Blockquotes */ /* Tables */ /* Others */ }
+
+div .post hr { color: #bbb; background-color: #bbb; height: 1px; flex: 0 1 auto; margin: 1em 0; padding: 0; border: none; }
+
+div .post a { color: #0366d6; text-decoration: none; }
+
+div .post a:visited { color: #0366d6; }
+
+div .post a:hover { color: #0366d6; text-decoration: underline; }
+
+div .post pre { background-color: #f6f8fa; border-radius: 3px; font-size: 85%; line-height: 1.45; overflow: auto; padding: 16px; }
+
+div .post code { background-color: rgba(27, 31, 35, 0.05); border-radius: 3px; font-size: 85%; margin: 0; word-wrap: break-word; padding: 0.2em 0.4em; font-family: SFMono-Regular, Consolas, Liberation Mono, Menlo, Courier, monospace; }
+
+div .post pre > code { background-color: transparent; border: 0; display: inline; line-height: inherit; margin: 0; overflow: visible; padding: 0; word-wrap: normal; font-size: 100%; }
+
+div .post blockquote { margin-left: 30px; margin-top: 0px; margin-bottom: 16px; border-left-width: 3px; padding: 0 1em; color: #828282; border-left: 4px solid #e8e8e8; padding-left: 15px; font-size: 18px; letter-spacing: -1px; font-style: italic; }
+
+div .post blockquote * { font-style: normal !important; letter-spacing: 0; color: #6a737d !important; }
+
+div .post table { border-spacing: 2px; display: block; font-size: 14px; overflow: auto; width: 100%; margin-bottom: 16px; border-spacing: 0; border-collapse: collapse; }
+
+div .post td { padding: 6px 13px; border: 1px solid #dfe2e5; }
+
+div .post th { font-weight: 600; padding: 6px 13px; border: 1px solid #dfe2e5; }
+
+div .post tr { background-color: #fff; border-top: 1px solid #c6cbd1; }
+
+div .post table tr:nth-child(2n) { background-color: #f6f8fa; }
+
+div .post img { max-width: 100%; }
+
+div .post p { line-height: 24px; font-weight: 400; font-size: 16px; color: #24292e; }
+
+div .post ul { margin-top: 0; }
+
+div .post li { color: #24292e; font-size: 16px; font-weight: 400; line-height: 1.5; }
+
+div .post li + li { margin-top: 0.25em; }
+
+div .post * { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; color: #24292e; }
+
+div .post a:visited { color: #0366d6; }
+
+div .post h1, div .post h2, div .post h3 { border-bottom: 1px solid #eaecef; color: #111; /* Darker */ }
