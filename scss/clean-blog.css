@@ -248,4 +248,4 @@ div .post * { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvet
 
 div .post a:visited { color: #0366d6; }
 
-div .post h1, div .post h2, div .post h3 { border-bottom: 1px solid #eaecef; color: #111; /* Darker */ }
+div .post h1, div .post h2 { border-bottom: 1px solid #eaecef; color: #111; /* Darker */ }
