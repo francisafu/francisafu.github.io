@@ -200,7 +200,9 @@ var _hmt = _hmt || [];
 <ol>
 <li>在电脑上用解压缩工具打开压缩包（是打开不是解压！）；</li>
 <li>找到META-INF/com/google/android/updater-script文件。拖拽到桌面；</li>
-<li>用代码编辑器打开updater-script文件（建议用VS Code）,然后删除第一行，也就是上面说的这一行代码“getprop(&quot;ro.display.series&quot;) == &quot;Sagit&quot; || abort(&quot;E3004: This package is for &quot;Sagit&quot; devices; this is a &quot;&quot; + getprop(&quot;ro.display.series&quot;) + &quot;&quot;.&quot;);”，然后保存；</li>
+<li>用代码编辑器打开updater-script文件（建议用VS Code）,然后删除第一行，也就是这一行代码
+<code>getprop(&quot;ro.display.series&quot;) == &quot;Sagit&quot; || abort(&quot;E3004: This package is for \&quot;Sagit\&quot; devices; this is a \&quot;&quot; + getprop(&quot;ro.display.series&quot;) + &quot;\&quot;.&quot;);</code>
+然后保存；</li>
 <li>双击开始的安装包，再找到META-INF/com/google/android/updater-script文件，然后直接把修改后的updater-script拖到里面覆盖；</li>
 <li>将修改过的ROM包拷贝至手机重新安装即可。
 至于如果你遇到的是其它类型的“错误7”，请自行百度搜索解决办法。</li>

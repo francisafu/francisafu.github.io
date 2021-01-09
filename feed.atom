@@ -7,7 +7,7 @@
 	</author>
 	<link rel="self" href="/" />
 	<rights>2021</rights>
-	<updated>2021-01-09T18:17:31Z</updated>
+	<updated>2021-01-09T18:24:24Z</updated>
 	<subtitle>The Less You Know, The Further You Go.</subtitle>
 	<entry>
 		<id>/posts/%25E9%25AD%2594%25E8%25B6%25A3%25E5%25AE%2589%25E5%258D%2593%25E7%25B3%25BB%25E7%25BB%259F%25E5%2588%25B7%25E6%259C%25BA%25E6%2595%2599%25E7%25A8%258B%25EF%25BC%25882021.01%25E7%2589%2588%25EF%25BC%2589</id>
@@ -109,7 +109,9 @@
 &lt;ol&gt;
 &lt;li&gt;在电脑上用解压缩工具打开压缩包（是打开不是解压！）；&lt;/li&gt;
 &lt;li&gt;找到META-INF/com/google/android/updater-script文件。拖拽到桌面；&lt;/li&gt;
-&lt;li&gt;用代码编辑器打开updater-script文件（建议用VS Code）,然后删除第一行，也就是上面说的这一行代码“getprop(&amp;quot;ro.display.series&amp;quot;) == &amp;quot;Sagit&amp;quot; || abort(&amp;quot;E3004: This package is for &amp;quot;Sagit&amp;quot; devices; this is a &amp;quot;&amp;quot; + getprop(&amp;quot;ro.display.series&amp;quot;) + &amp;quot;&amp;quot;.&amp;quot;);”，然后保存；&lt;/li&gt;
+&lt;li&gt;用代码编辑器打开updater-script文件（建议用VS Code）,然后删除第一行，也就是这一行代码
+&lt;code&gt;getprop(&amp;quot;ro.display.series&amp;quot;) == &amp;quot;Sagit&amp;quot; || abort(&amp;quot;E3004: This package is for \&amp;quot;Sagit\&amp;quot; devices; this is a \&amp;quot;&amp;quot; + getprop(&amp;quot;ro.display.series&amp;quot;) + &amp;quot;\&amp;quot;.&amp;quot;);&lt;/code&gt;
+然后保存；&lt;/li&gt;
 &lt;li&gt;双击开始的安装包，再找到META-INF/com/google/android/updater-script文件，然后直接把修改后的updater-script拖到里面覆盖；&lt;/li&gt;
 &lt;li&gt;将修改过的ROM包拷贝至手机重新安装即可。
 至于如果你遇到的是其它类型的“错误7”，请自行百度搜索解决办法。&lt;/li&gt;
